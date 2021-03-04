@@ -1,6 +1,13 @@
 /* Utilities */
-.main-header{
+.body{
+    padding-top: 70px;
+}
+
+
+
+.main-header .navbar{
     background-color: #2C3E50;
+    padding: 20px 0;
 }
 
 .main-sec-1{
@@ -23,15 +30,32 @@
     background-color: #1A252F;
 }
 
-.white-text{
+/* Colore testo bianco */
+.navbar>.container .navbar-brand,
+.navbar-default .navbar-nav>li>a{
     color: #fff
 }
 
-/* Color-box */
-.box1{
-    width: 100%;
-    height: 40px;
+/* Font-size e colo header */
+.navbar>.container .navbar-brand{
+    font-size: 25px;
 }
+
+.navbar-default .navbar-nav>li>a{
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: rgb(253, 249, 249);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff
+}
+
+
+/* Color-box */
+
 
 .box2{
     width: 100%;
