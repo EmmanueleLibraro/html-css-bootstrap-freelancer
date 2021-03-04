@@ -61,15 +61,40 @@
 /* img */
 .logo-img{
     width: 200px;
+    padding-top: 20px;
 }
 
 .main-sec-1 .container h1{
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
+    padding-bottom: 15px;
 }
 
+.main-sec-1 .container p{
+    color: #fff;
+    font-size: 20px;
+}
 
+/* Bordo-stella */
+.bordo{
+    border: 3px solid #fff;
+    height: 3px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dist-bot{
+    padding-bottom: 15px;
+}
+
+.stella{
+    color: #fff;
+    font-size: 30px;
+    vertical-align: middle;
+}
 
 /* Color-box */
 
